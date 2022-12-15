@@ -1,0 +1,5 @@
+fName=Course 1
+sName=
+sDate=21,December,2022,8,30
+eDate=21,December,2022,10,0
+id=C1
