@@ -4,7 +4,7 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 from TestUtils import Utils
 class CreateCourseUtils:
-    URLCREATECOURSE = "http://localhost/moodle/course/edit.php?category=0"
+    URLCREATECOURSE = "http://localhost/course/edit.php?category=0"
 
     @staticmethod
     def test(fName, sName, startDate, endDate, id):

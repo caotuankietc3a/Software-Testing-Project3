@@ -3,16 +3,19 @@
 ## 📦 Installation
 
 ```
-pip3 install selenium
-pip3 install webdriver-manager
 git clone https://github.com/caotuankietc3a/Software-Testing-Project3.git
+chmod +x run.sh && \ ./run.sh
 ```
 
 ## 🚀 Usage
 
-Go to `src` folder and run the following commands
+Test Create Course
 
-> Test Create Course
+```sh
+python3 run.py
+```
+
+> Or
 
 ```sh
 python run.py
