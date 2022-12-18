@@ -3,8 +3,8 @@ sys.path.append("./utils/")
 sys.path.append("./tests/")
 
 def main():
-    from LoginUtils import LoginSite
-    from TestCourse import TestCreateCourse, TestRemoveCourse
+    from utils.LoginUtils import LoginSite
+    from tests.TestCourse import TestCreateCourse, TestRemoveCourse
     LoginSite.logIn()
     for i in range(1, 8):
         try:

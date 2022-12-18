@@ -1,7 +1,7 @@
 import time, os
 import unittest
-from CourseUtils import CreateCourseUtils, RemoveCourseUtils
-from FileUtils import readTestCaseFromFile, readSolutionFromFile
+from utils.CourseUtils import CreateCourseUtils, RemoveCourseUtils
+from utils.FileUtils import readTestCaseFromFile, readSolutionFromFile
 from selenium.webdriver.common.keys import Keys
 
 
